@@ -1,12 +1,14 @@
+import {add, subtract, multiply, divide } from 'disaster-math'
+
 // return an object representing the results of arithmetic operations
 // given inputs "number1" and "number2"
 const doArithmetic = (number1, number2) => {
     // alter the code in this function
     return {
-        add: number1 + number2,
-        subtract: number1 - number2,
-        multiply: number1 * number2,
-        divide: number1 / number2
+        add: add(number1, number2),
+        subtract: subtract(number1, number2),
+        multiply: multiply(number1, number2),
+        divide: divide(number1, number2)
     }
 }
 
