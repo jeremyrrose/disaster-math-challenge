@@ -34,3 +34,17 @@ Then import the pre-built functions from `disaster-math` into `index.js` and use
 ## Test
 
 Run `node index.js` for feedback!
+
+## Hints
+
+Look at the `disaster-math` documentation: https://www.npmjs.com/package/disaster-math
+
+First just try importing `disaster-math`:
+
+```js
+import DisasterMath from 'disaster-math'
+```
+
+Can you `console.log(DisasterMath)`?
+
+Are there some functions in there? Look at the documentation again for usage. :)
